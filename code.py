@@ -18,7 +18,6 @@
 #         print("*",end=' ')
 #     print()
 
-
 # for i in range(5):
 
 #     for j in range(i):
@@ -27,3 +26,28 @@
 #     print ()
 
 # print("hello world")
+
+# file handling
+
+# f=open("student.txt",'r')
+# print(f.read())
+
+# f=open("student.txt",'a')
+# f.write("hello world")
+# f.close()
+# f=open("student.txt",'r')
+# print(f.read())
+
+# f=open("student.txt",'w')
+# f.write("hello world")
+
+import secrets
+password=secrets.token_urlsafe(4)
+print(password)
+
+
+
+
+
+
+
