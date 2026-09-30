@@ -41,12 +41,113 @@
 # f=open("student.txt",'w')
 # f.write("hello world")
 
-import secrets
-password=secrets.token_urlsafe(4)
-print(password)
+# import secrets
+# password=secrets.token_urlsafe(4)
+# print(password)
 
- 
+# student detail 
+# class student:
 
+#     def __init__(self,name, roll_no,age):
+#         self.name = name
+#         self.roll_no = roll_no
+#         self.age=age
+
+
+#     def display(self):
+#         print("name",self.name)
+#         print("roll_no",self.roll_no)
+#         print("age",self.age)
+
+# s1=student("Akash",101,19)
+# s2=student("anukaran",102,19)
+# s3=student("cp",103,20)
+
+# s1.display()
+# s2.display()
+# s3.display()
+
+
+# class rectangle:
+#     def __init__(self,length,breadth):
+#         self.length=length
+#         self.breadth=breadth
+
+#     def area(self):
+#         return self.length * self.breadth
+# r1=rectangle(10,5)
+# r2=rectangle(5,25)
+
+# print("area of rectangle",r1.area())
+# print("area of rectangle",r2.area())
+
+# class movie:
+#     def __init__(self,name,year):
+#         self.name=name
+#         self.year=year
+
+#     def display(self):
+#         print("movie name",self.name)
+#         print("movie year",self.year)
+
+# movies=[]
+# n=int(input("number of movie "))
+# for i in range (n):
+#     name=input("movie name")
+#     year=int(input("movie year"))
+
+#     m=movie(name,year)
+#     movies.append(m)
+# print("\nmovie details")
+# for movie in movies:
+#     movie.display()
+#     print()
+    
+# class student:
+#     def __init__(self):
+#         self.name=input("enter your name")
+#         self.id=int(input("Enter your id"))
+#         self.roll_no=int(input("enter roll no."))
+
+# class examination(student):
+#     def calculate(self):
+#         self.maths=int(input("enter marks maths"))
+#         self.physics=int(input("enter marks of physics"))
+#         self.python=int(input("enter marks of python"))
+#         total_marks=self.maths+self.physics+self.python
+#         percentage=total_marks/3
+#         print("name=",self.name)
+#         print("id=",self.id)
+#         print("roll_no=",self.roll_no)
+#         print("maths=",self.maths)
+#         print("physics=",self.physics)
+#         print("python=",self.python)
+#         print("total_marks",total_marks)
+#         print("percentage",percentage)
+# e=examination()
+# e.calculate()
+
+# class employee():
+#     def info(self):
+#         self.name=input("enter your name")
+#         self.id=int(input("enter your id"))
+#         self.salary=int(input("enter your salary"))
+
+# class manager(employee):
+#     def total(self):
+#         bonous=(self.salary*10)/100
+#         total_salary=bonous+self.salary
+#         print("name=",self.name)
+#         print("id=",self.id)
+#         print("salary",self.salary)
+#         print("boonous=",bonous)
+#         print("total_salary=",total_salary)
+# e=manager()
+# e.info()
+# e.total()
+
+
+        
 
 
 
