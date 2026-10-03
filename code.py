@@ -102,7 +102,7 @@
 # for movie in movies:
 #     movie.display()
 #     print()
-    
+
 # class student:
 #     def __init__(self):
 #         self.name=input("enter your name")
@@ -127,7 +127,7 @@
 # e=examination()
 # e.calculate()
 
-# class employee():
+# class employee:
 #     def info(self):
 #         self.name=input("enter your name")
 #         self.id=int(input("enter your id"))
@@ -145,6 +145,55 @@
 # e=manager()
 # e.info()
 # e.total()
+
+# class Academic:
+#     def marks(self):
+#         self.python=int(input("Enter python marks"))
+#         self.de=int(input("Enter de marks"))
+#         self.maths=int(input("Enter maths marks"))
+
+# class sports:
+#     def info(self):
+#         self.sports_marks=int(input("Enter sports marks:"))
+#         print()
+
+# class result(Academic,sports):
+#     def total(self):
+#         print("python marks",self.python)
+#         print("de marks",self.de)
+#         print("maths marks",self.maths)
+#         print("sports marks",self.sports_marks)
+        
+# e=result()
+# e.marks()
+# e.info()
+# e.total()
+
+# class personal_details:
+#     def info(self):
+#         self.name=input("enter your name: ")
+#         self.age=input("enter your age:")
+#         self.city=input("enter your city:")
+# class professional_details:
+#     def details(self):
+#         self.company_name=input("Enter company name=")
+#         self.designation=input("Enter your designation=")
+#         self.experience=int(input("Enter your experience"))
+#         print(self.experience,"years")
+#         print()
+
+# class employee(personal_details,professional_details):
+#     def display(self):
+#         print("name=",self.name)
+#         print("age=",self.age)
+#         print("city=",self.city)
+#         print("company name=",self.company_name)
+#         print("designation=",self.designation)
+#         print("Experience=",self.experience,"years")
+# a=employee()
+# a.info()
+# a.details()
+# a.display()
 
 
         
