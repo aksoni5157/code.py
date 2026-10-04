@@ -169,31 +169,31 @@
 # e.info()
 # e.total()
 
-# class personal_details:
-#     def info(self):
-#         self.name=input("enter your name: ")
-#         self.age=input("enter your age:")
-#         self.city=input("enter your city:")
-# class professional_details:
-#     def details(self):
-#         self.company_name=input("Enter company name=")
-#         self.designation=input("Enter your designation=")
-#         self.experience=int(input("Enter your experience"))
-#         print(self.experience,"years")
-#         print()
+class personal_details:
+    def info(self):
+        self.name=input("enter your name: ")
+        self.age=input("enter your age:")
+        self.city=input("enter your city:")
+class professional_details:
+    def details(self):
+        self.company_name=input("Enter company name=")
+        self.designation=input("Enter your designation=")
+        self.experience=int(input("Enter your experience"))
+        print(self.experience,"years")
+        print()
 
-# class employee(personal_details,professional_details):
-#     def display(self):
-#         print("name=",self.name)
-#         print("age=",self.age)
-#         print("city=",self.city)
-#         print("company name=",self.company_name)
-#         print("designation=",self.designation)
-#         print("Experience=",self.experience,"years")
-# a=employee()
-# a.info()
-# a.details()
-# a.display()
+class employee(personal_details,professional_details):
+    def display(self):
+        print("name=",self.name)
+        print("age=",self.age)
+        print("city=",self.city)
+        print("company name=",self.company_name)
+        print("designation=",self.designation)
+        print("Experience=",self.experience,"years")
+a=employee()
+a.info()
+a.details()
+a.display()
 
 
         
