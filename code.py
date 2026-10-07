@@ -169,31 +169,84 @@
 # e.info()
 # e.total()
 
-class personal_details:
-    def info(self):
-        self.name=input("enter your name: ")
-        self.age=input("enter your age:")
-        self.city=input("enter your city:")
-class professional_details:
-    def details(self):
-        self.company_name=input("Enter company name=")
-        self.designation=input("Enter your designation=")
-        self.experience=int(input("Enter your experience"))
-        print(self.experience,"years")
-        print()
+# class personal_details:
+#     def info(self):
+#         self.name=input("enter your name: ")
+#         self.age=input("enter your age:")
+#         self.city=input("enter your city:")
+# class professional_details:
+#     def details(self):
+#         self.company_name=input("Enter company name=")
+#         self.designation=input("Enter your designation=")
+#         self.experience=int(input("Enter your experience"))
+#         print(self.experience,"years")
+#         print()
 
-class employee(personal_details,professional_details):
+# class employee(personal_details,professional_details):
+#     def display(self):
+#         print("name=",self.name)
+#         print("age=",self.age)
+#         print("city=",self.city)
+#         print("company name=",self.company_name)
+#         print("designation=",self.designation)
+#         print("Experience=",self.experience,"years")
+# a=employee()
+# a.info()
+# a.details()
+# a.display()
+
+# class person:
+#     def __init__(self,name,age,height,weight):
+#         self.name=name
+#         self.age=age
+#         self.height=height
+#         self.weight=weight
+
+# class student(person):
+#     def __init__(self,name,age,height,weight,roll_no,marks):
+#         super().__init__(name,age,height,weight)
+
+#         self.roll_no=roll_no
+#         self.marks=marks
+        
+#     def display(self):
+#         print("name=",self.name)
+#         print("age=",self.age)
+#         print("height=",self.height)
+#         print("weight=",self.weight)
+#         print("roll_number=",self.roll_no)
+#         print("marks=",self.marks)
+# name=input("enter name:")
+# age=int(input("enter age:"))
+# height=int(input("enter height:"))
+# weight=int(input("enter weight:"))
+# roll_no=int(input("enter roll number:"))
+# marks=int(input("enter marks:"))
+# a=student(name,age,height,weight,roll_no,marks)
+# a.display()
+
+class person:
+    def info(self):
+        self.student_name=input("enter student name:")
+        self.roll_no=int(input("enter roll_no:"))
+
+class teacher(person):
     def display(self):
-        print("name=",self.name)
-        print("age=",self.age)
-        print("city=",self.city)
-        print("company name=",self.company_name)
-        print("designation=",self.designation)
-        print("Experience=",self.experience,"years")
-a=employee()
-a.info()
-a.details()
+        super().info()
+        self.subject=input("enter subject name:")
+        self.teacher_name=input("enter teacher name:")
+        print()
+        print("name=",self.student_name)
+        print("roll_no=",self.roll_no)
+        print("subject=",self.subject)
+        print("teacher name",self.teacher_name)
+a=teacher()
 a.display()
+
+
+
+        
+
 
 
         
